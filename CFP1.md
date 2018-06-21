@@ -25,7 +25,8 @@ The SIS-IoT workshop will be a half-day event with short and full papers, openly
 TOPICS
 =======================================
  
-Relevant topics of interest include the use, development, and standardization, of Linked Data and Semantic Web technologies for solving semantic interoperability issues along the following lines:
+Relevant topics of interest include the development and use of (ontology) standards for solving semantic interoperability issues along the following lines:
+
  
 - Cross-cutting IoT semantic interoperability approaches reusing standards
 - Use cases and implementations from pilots, innovation and research projects
@@ -34,10 +35,10 @@ Relevant topics of interest include the use, development, and standardization, o
 - REST-like and RESTful architectural styles for applications involving constrained devices
 - Alignment of ontology standards among standardization bodies
 - Solutions for machine-to-machine semantic interoperability
-- Open source implementations
+- Open source implementations of standards for semantic interoperability
 - Interoperability and alignment among standards, ontologies, catalogues, related to sensors, actuators, and the web of things
-- Semantics and Open Platforms for Web of Data and Things
-- Semantic technologies helping constructing systems of IoT Systems
+- Semantic standards for Web of Data and Things
+- Semantic standards for constructing systems of IoT Systems
  
  
 PAPER SUBMISSION
