@@ -11,7 +11,7 @@ First CFP for SIS-IoT 2018: deadline 15 August 2018, at IoT 2018
 Santa-Barbara, California, 15th October 2018
  
 WWW: https://iot2018wt.github.io/sis-iot/
-E-mail: iswc-sisiot2018@easychair.org
+E-mail: iot-sisiot2018@easychair.org
  
 We would like to invite you cordially to consider contributing a paper to SIS-IoT 2018 - held as a part of the 8th International Conference on the Internet of Things (IoT 2018).
  
@@ -54,7 +54,7 @@ See the full set of instructions at https://iot2018wt.github.io/sis-iot/#submiss
 PUBLICATION
 =======================================
  
-Accepted papers will be published as CEUR workshop proceedings. At least one author of each accepted paper must register for the conference and present the paper there.
+Accepted papers will be published as CEUR workshop proceedings (provided we reach the minimum number of papers required). At least one author of each accepted paper must register for the conference and present the paper there.
  
  
 IMPORTANT DATES
