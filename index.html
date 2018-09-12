@@ -37,8 +37,8 @@
 
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about">About</a></li>
-                    <li><a data-scroll href="#topics">Topics</a></li>
-                    <li><a data-scroll href="#submission">Submission</a></li>                  
+                    <li><a data-scroll href="#program">Program</a></li>
+                    <li><a data-scroll href="#keynote">Keynote</a></li>
                     <li><a data-scroll href="#organization">Organization</a></li>                  
                     <li><a data-scroll href="#committee">Program Committee</a></li>                  
                 </ul>
@@ -54,7 +54,7 @@
             
             <h2>held at the 8<sup>th</sup> International Conference on the Internet of Things <a style="color:white" href="http://iot-conference.org/iot2018"><img height="150" style="border-radius: 25px;" src="assets/images/IoT-logo-large.png" alt="IoT 2018 workshop"/></a></h2>
             
-            <a class="btn btn-white" data-scroll href="#submission">Submission</a>
+            <a data-scroll class="btn btn-white" href="#program">Program of the workshop</a>
         
         </div>
     </header>
@@ -80,20 +80,72 @@
 
 
 
-    <section class="section">
+    <section id="program" class="section">
         <div class="container">
             <div class="row">
 
-                    <h3 class="section-title">Format</h3>
+                    <h3 class="section-title">Program</h3>
 
-                    <p>The SIS-IoT workshop will be a half-day event with short and full papers, openly peer-reviewed on EasyChair. 
-                    The event is meant to be highly interactive, so as to facilitate discussions among participants that could result in future collaborative work. A keynote/invited talk will be planned, and followed by authors presenting their paper. We will ensure sufficient time will be dedicated to questions and answers for each paper. The session will end with a general discussion session to discuss experience related to the topics of the workshop. A panel with experts from the research community and industrial stakeholders may be planned.</p>
+                    <p>The workshop will take place October 15<sup>th</sup> 2018, morning</p>
 
+                    <table class="program"><tbody>
+                        <tr><td style="min-width:11ex">9:00-9:15</td><td style="min-width:12ex"></td><td>Introduction to SSN 2018</td></tr>
+                        <tr><td>9:15-10:00</td><td>Keynote</td><td><a href="#keynote">Krzysztof Janowicz, <em>title to be announced</em></a></td></tr>
+                        <tr><td>10:00-10:30</td><td>Long paper</td><td>Rami Belkaroui, Christophe Nicolle and Aurélie Bertaux. <a><em>Towards Events Ontology Based on Data Sensors Network for Viticulture Domain</em></a>. <details><summary>(see abstract)</summary> Wine Cloud project is the first "Big Data" platform on the french viticulture value chain. The aim of this platform is to provide a complete traceability of the life cycle of the wine, from the winegrower to the consumer. In particular, Wine Cloud may qualify as an agricultural decision platform will be used for vine life cycle management in order to predict the occurrence of major risks (vine diseases, grape vine pests, physiological risks, fermentation stoppage, oxidation of vine, etc...). Also to make wine production more rational by offering winegrower a set of recommendation regarding their strategy's of production development. <br/>
+
+The proposed platform "Wine Cloud" is based on heterogeneous sensors network (agricultural machines, plant sensors and measuring stations) deployed throughout a vineyard. These sensors allow for capturing data from the agricultural process and remote monitoring vineyards in the Internet of Things (IoT) era. However, the sensors data from different source is hard to work together for lack of semantic. Therefore, the task of coherently combining heterogeneous sensors data becomes very challenging. The integration of heterogeneous data from sensors can be achieved by data mining algorithms able to build correlations. Nevertheless, the meaning and the value of these correlations is difficult to perceive without highlighting the meaning of the data and the semantic description of the measured environment. 
+ <br/>
+In order to bridge this gap and built causality relationships form heterogeneous sensor data, we propose an ontology-based approach, that consists in exploring heterogeneous sensor data (light, temperature, atmospheric pressure, etc) in terms of ontologies enriched with semantic meta-data describing the life cycle of the monitored environment.</details></td></tr>
+                        <tr><td>10:30-11:00</td><td></td><td>Break</td></tr>
+
+                        <tr><td>11:00-11:30</td><td>Long paper</td><td>Maxime Lefrançois. <a><em>RDF Presentation and Correct Content Conveyance for Legacy Services and the Web of Things</em></a>. <details><summary>(see abstract)</summary>RDF aims at being the universal abstract data model for structured data on the Web. However, the vast majority of web services consume and expose non-RDF data, and it is unlikely that all these services be converted to RDF one day. This is especially true for sensors and other devices in the Web of Things, as most RDF formats are verbose while constrained devices prefer to consume and expose data in concise formats. In this paper, we propose an approach to make these services and things reach semantic interoperability, while letting them the freedom to use their preferred formats. Our approach is rooted in the Web's architectural principles and the linked data principles, and relies on the definition of RDF presentations, which describe the link between RDF graphs and their representations. We introduce the RDF Presentation ontology (RDFP) that can be used to model inputs and outputs of procedures of the new Semantic Sensor Network ontology (SOSA/SSN), and inputData and outputData of interaction patterns of things in the W3C WoT Thing Description ontology. We then propose practical solutions for web agents to be able to discover how a message content can be interpreted as RDF, generated from RDF, or validated, with different Web interaction protocols. </details></td></tr>
+
+                        <tr><td>11:30-11:50</td><td>Short paper</td><td>Michele Blank, Haifa Lahbaiel, Sebastian Kaebisch and Harald Kosch. <a><em>Role Models and Lifecycles in IoT and their Impact on the W3C WoT Thing Description</em></a>. <details><summary>(see abstract)</summary>The W3C Web of Things (WoT) is introduced as a larger
+context of the Internet of Things (IoT). It provides standards for communication
+and interaction with Things in the IoT in order to address
+IoT cross-domain and cross-platform interoperability problems and reduce
+its fragmentation. WoT uses a formal interface description called
+Thing Description (TD) which describes the offerings of Things to allow
+the interaction in between Things. Although Things undergo changes
+with regard to their physical and/or software components and specifications
+during their lifetime, the architectural approach of WoT misses the
+lifecycle aspect in the TD. The static nature of the current TD remains
+contradictory with the dynamic evolution of Things.
+This work researches the lifecycle aspect for Things in the IoT and develops
+a lifecycle approach aligned with the WoT paradigm. A study about
+the different stakeholders influencing the Things was conducted
+to build a role model. These two concepts were combined to develop a
+versioning mechanism for a TD through the lifecycle of a Thing.</details></td></tr>
+
+                        <tr><td>11:50-12:10</td><td>Short paper</td><td>Sergio José Rodríguez Méndez. <a><em>Modeling Actuations in BCI-O: A Context-based Integration of SOSA and IoT-O</em></a>. <details><summary>(see abstract)</summary>Recent technological developments in Brain-Computer Interfaces (BCI) will largely enable BCI as a powerful, natural and intuitive mainstream human-computer interaction (HCI) in real-world activities, especially throughout actuators connected to the Internet. As a type of sensor-actuator system, BCI will integrate novel interfaces that will be fully interoperating with IoT-based systems. An ontological metadata overlay for BCI systems in real-world applications is defined in the BCI Ontology (BCI-O), which formalizes and integrates BCI-domain-specific Sense and Actuation Models along with a novel Context Model for describing any kind of real/virtual environments. This paper presents the design principle of BCI-O's Actuation Model, which integrates SOSA and SAN (IoT-O) axioms for actuations and actuators along with the BCI-O’s Context Model. This model will become relevant in the degree as context-based semantic interoperability will become a core pre-requisite for any context-aware BCI actuation application with real-time collaboration in IoT environments.</details></td></tr>
+
+                        <tr><td>12:10-12:30</td><td></td><td>Discussion</td></tr>
+                        
+                </tbody></table>
 
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
 
+
+
+    <section id="keynote" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Keynote</h3> 
+                </div>
+
+                <div class="col-md-6">
+                    <img class="img-responsive" style="height: 220px" src="http://geog.ucsb.edu/img/news/2015/jano2.jpg"/>
+                   <h4>Krzysztof Janowicz</h4>
+                   <p>University of California, Santa Barbara</p>
+                   <p><em>bio</em></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <section id="topics" class="section text-center">
@@ -211,13 +263,13 @@
                     <li>Nicolas Seydoux, LAAS </li>
                     <li>Victor Charpenay, Siemens AG </li>
                     <li>Kris McGlinn, Trinity College Dublin </li>
-                    <li>Mahdi Ben Alaya, Sensinov </li>
-                    <li>María Poveda Villalón, Universidad Politécnica de Madrid (UPM)</li>
+                    <!--<li>Mahdi Ben Alaya, Sensinov </li>-->
+                    <!--<li>María Poveda Villalón, Universidad Politécnica de Madrid (UPM)</li>-->
                     <!--<li>Pieter Colpaert, IMEC </li>-->
-                    <li>Fano Ramparany, Orange </li>
+                    <!--<li>Fano Ramparany, Orange </li>-->
                     <li>Achille Zappa, Insight </li>
                     <li>Krzysztof Janowicz, UCSB</li>
-                    <li>Danh Le Phuoc, T.U. Berlin</li>
+                    <!--<li>Danh Le Phuoc, T.U. Berlin</li>-->
                 </ul>
             </div>
         </div>
