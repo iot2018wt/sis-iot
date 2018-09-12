@@ -137,3 +137,12 @@ figure figcaption {
   }
 }
 
+
+.program tr:nth-child(odd) {
+  background: #DEB;
+}
+
+.program {
+  border-collapse: separate;
+  border-spacing: 0px 1ex;
+}
